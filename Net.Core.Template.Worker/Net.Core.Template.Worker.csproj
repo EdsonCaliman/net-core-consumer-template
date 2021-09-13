@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Net.Core.Template.CrossCutting.Ioc\Net.Core.Template.CrossCutting.Ioc.csproj" />
+    <ProjectReference Include="..\Net.Core.Template.Domain\Net.Core.Template.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
